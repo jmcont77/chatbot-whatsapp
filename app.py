@@ -55,7 +55,7 @@ def cargar_pdf(ruta_pdf):
         return ""
 
 # Cargar PDF al iniciar (busca "contexto.pdf" en el directorio)
-PDF_PATH = os.path.join(os.path.dirname(__file__), 'preguntas_juridicamente.pdf')
+PDF_PATH = os.path.join(os.path.dirname(__file__), 'contexto.pdf')
 
 if os.path.exists(PDF_PATH):
     CONTEXTO_PDF = cargar_pdf(PDF_PATH)
